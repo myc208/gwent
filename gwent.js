@@ -1740,10 +1740,10 @@ class UI {
 		// If playing, toggle mute
 		if (player.isMuted()) {
 		player.unMute();
-		this.toggleMusic_elem.classList.remove("muted");
+		this.toggleMusic_elem.classList.remove("fade"); // Optional: visual indicator
 		} else {
 		player.mute();
-		this.toggleMusic_elem.classList.add("muted");
+		this.toggleMusic_elem.classList.add("fade"); // Optional: visual indicator
 		}
 	}
 	}

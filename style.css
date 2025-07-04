@@ -1260,13 +1260,6 @@ main { background-image: url('img/boardtest8.png'); }
 	text-shadow: 0 0 .1vw black;
 }
 
-#toggle-music.muted::before {
-  content: "🔇"; /* Muted icon */
-}
-#toggle-music.not-muted::before {
-  content: "🎵"; /* Unmuted icon */
-}
-
 .card > div:nth-child(2) {
 	top: 75%;
 	left: 65%;
